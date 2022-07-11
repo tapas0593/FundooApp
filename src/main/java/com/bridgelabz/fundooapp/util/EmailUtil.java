@@ -24,8 +24,8 @@ public class EmailUtil {
 
 	public static void sendEmail(String toEmail, String subject, String body) {
 
-		String fromEmail = "aasthashree30@gmail.com";
-		String password = "punamaastha@";
+		String fromEmail = "sample@gmail.com";
+		String password = "Password@!234";
 
 		Properties prop = new Properties();
 		prop.put("mail.smtp.auth", "true");
